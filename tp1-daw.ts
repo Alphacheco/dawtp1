@@ -107,8 +107,8 @@ filaStrings.agregar("Probando TS");
 filaStrings.agregar("Para ponerme al dia");
 filaStrings.agregar("Creo que lo voy entendiendo");
 
-filaAnimales.remover();
-filaNumeros.remover();
-filaStrings.remover();
+console.log(filaAnimales.remover()?.nombre); // Perro
+console.log(filaNumeros.remover());           // 4
+console.log(filaStrings.remover());           // Probando TS
 
 
